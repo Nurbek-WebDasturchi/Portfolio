@@ -1,0 +1,69 @@
+/* css is very beautiful */
+body {
+    font-family: sans-serif;
+}    
+
+marquee {
+    background-color: red; 
+}
+.konteyner {
+    width:1140px;
+    margin: 0 auto;
+}
+
+.box {
+    padding: 10px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: aqua;
+    margin: 30px;
+    margin-top: 5px;
+    position: inherits;
+    border-radius: 10px;
+    text-decoration: solid;
+    text-overflow: clip;
+    margin-block: 10px; 
+    color: aqua;
+    content: counter(name);
+    position: relative;
+    background-color: transparent; 
+      }
+
+      
+
+.h1{
+    color: blue;
+    text-align: center;
+    font-weight: bold;
+} 
+.menyu-header__logo img {
+    width: 64px;
+}
+.menyu-navigatsiya {
+    vertical-align: middle;
+    display: inline-block;
+}
+.menyu-navigatsiya__item {
+    display: inline-block;
+    padding: 10px;
+}
+.menyu-header__logo {
+    display: inline-block;
+    vertical-align: middle;
+}
+.menyu-navigatsiya__item a {
+    color:#05364d;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size:12px;
+    font-weight: 500;
+}
+.menyu-navigatsiya__item a:hover {
+    color: red;
+}
+.menyu-navigatsiya__item a:hover {
+    color: #efb6df;
+}
+.menyu-navigatsiya__item.active a {
+    color:red;
+}
